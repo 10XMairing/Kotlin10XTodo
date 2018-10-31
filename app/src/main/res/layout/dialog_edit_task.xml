@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="200dp"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/et_dialog_edit_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/edit_text"
+        android:background="@drawable/bg_border_bottom"
+        android:minLines="8"
+        style="@android:style/Widget.TextView"
+        tools:text="Something will appear here"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/et_dialog_edit_task"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+
+        >
+        <ImageView
+            android:id="@+id/iv_dialog_delete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_delete"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="20dp"
+            />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="20dp"
+            >
+            <ImageView
+                android:id="@+id/iv_undo"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_undo"
+                android:layout_marginEnd="10dp"
+                />
+            <ToggleButton
+                android:id="@+id/tog_dialog_save"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/bg_tog_check"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentEnd="true"
+                android:textOff=""
+                android:textOn=""
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

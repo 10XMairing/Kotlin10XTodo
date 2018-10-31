@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    //button colors
+    <color name="btnHomeSaveHigh">#2793E6</color>
+    <color name="btnHomeSaveLow">#D3E9FA</color>
+    <color name="btnHomeCancelText">#4C454C</color>
+    <color name="bg_background_white">#FAFAFA</color>
+    <color name="btnHomeSaveText">#E8DCEE</color>
+    <color name="IconColorFill">#2793E6</color>
+</resources>

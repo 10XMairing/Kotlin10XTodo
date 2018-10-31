@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "127504521933",
+    "firebase_url": "https://xtodo-project.firebaseio.com",
+    "project_id": "xtodo-project",
+    "storage_bucket": "xtodo-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127504521933:android:ee8168e920abf237",
+        "android_client_info": {
+          "package_name": "com.tenxdevs.tenx.kotlintodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127504521933-h9l1ded0514rsha9ionh3iqt1708mqa2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tenxdevs.tenx.kotlintodo",
+            "certificate_hash": "7ae55454fb263515575e80b2ec30c02d7204cb49"
+          }
+        },
+        {
+          "client_id": "127504521933-g9cu5sugkpvbi2ugbf6ilnt6ef5fjha5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPgTcEwISi-sfyq4QeTq6Lgrp_8-_cvzM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127504521933-g9cu5sugkpvbi2ugbf6ilnt6ef5fjha5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-2333689924378183~6197234423"
+    }
+  ],
+  "configuration_version": "1"
+}
